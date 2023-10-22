@@ -1,7 +1,6 @@
-#include "mirror-logging/logger.h"
+#include <iostream>
 
 int main() {
-    std::shared_ptr<mirror::Logger> logger = mirror::Logger::getInstance();
-    logger->error("this should fail");
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }
